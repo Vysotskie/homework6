@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+.paragraph {
+    text-align: center;
+    text-decoration: underline double;
+}
+
+.first-blok {
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px 40px 20px 40px;
+    width: 70%;
+    height: 70%;
+    background-color: rgba(45, 174, 216, 0.235);
+    border: 3px solid rgba(15, 50, 62, 0.406);
+    border-left: 3px dashed rgba(15, 50, 62, 0.406);
+    border-bottom: 3px dashed rgba(15, 50, 62, 0.406);
+    font-size: 16px;
+}
+
+.first-header {
+    text-decoration: underline;
+    color: rgba(3, 41, 53, 0.755);
+}
+
+.first-paragraph::first-letter {
+    color: rgba(3, 41, 53, 0.755);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.first-text {
+    color: rgba(3, 41, 53, 0.755);
+    text-decoration: underline dotted;   
+}
+
+.first-img {
+    background-image: url(/Img/charlotte.jpeg);
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 300px;
+    height: 150px;
+}
+
+.second-blok {
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px 40px 20px 40px;
+    width: 70%;
+    height: 70%;
+    background-color: rgba(169, 169, 169, 0.18);
+    border: 3px solid rgba(58, 58, 58, 0.762);
+    border-left: 3px dashed rgba(58, 58, 58, 0.762);
+    border-bottom: 3px dashed rgba(58, 58, 58, 0.762);
+    font-size: 16px;
+}
+
+.second-header {
+    text-decoration: underline;
+    color: rgba(58, 58, 58, 0.762);
+}
+
+.second-paragraph::first-letter {
+    color: rgba(58, 58, 58, 0.762);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.second-text {
+    color: rgba(58, 58, 58, 0.762);
+    text-decoration: underline dashed;
+}
+
+.third-blok {
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px 40px 20px 40px;
+    width: 70%;
+    height: 70%;
+    background-color: rgba(143, 188, 143, 0.618);
+    border: 3px solid rgba(34, 74, 34, 0.831);
+    border-left: 3px dashed rgba(34, 74, 34, 0.831);
+    border-bottom: 3px dashed rgba(34, 74, 34, 0.831);
+    font-size: 16px;
+}
+
+.third-header {
+    text-decoration: underline;
+    color: rgba(34, 74, 34, 0.831);
+} 
+
+.thirt-paragraph::first-letter {
+    color: rgba(34, 74, 34, 0.831);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.third-text {
+    color: rgba(34, 74, 34, 0.831);
+    text-decoration: underline wavy;
+}
+
+.paragraph-botton {
+    text-decoration: overline;
+    text-align: center;
+}
