@@ -12,13 +12,14 @@
     margin: 0 auto;
     margin-top: 100px;
     padding: 20px 40px 20px 40px;
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     background-color: rgba(45, 174, 216, 0.235);
     border: 3px solid rgba(15, 50, 62, 0.406);
     border-left: 3px dashed rgba(15, 50, 62, 0.406);
     border-bottom: 3px dashed rgba(15, 50, 62, 0.406);
     font-size: 16px;
+    position: relative;
 }
 
 .first-header {
@@ -38,25 +39,28 @@
 }
 
 .first-img {
-    background-image: url(/Img/charlotte.jpeg);
+    width: 250px;
+    height: 180px;
+    background-image: url(../Img/charlotte.jpeg);
+    background-size: cover;
     position: absolute;
-    right: 0;
-    top: -50px;
-    width: 300px;
-    height: 150px;
+    border: 5px solid rgba(15, 50, 62, 0.406);
+    top: -90px;
+    right: -120px;
 }
 
 .second-blok {
     margin: 0 auto;
     margin-top: 100px;
     padding: 20px 40px 20px 40px;
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     background-color: rgba(169, 169, 169, 0.18);
     border: 3px solid rgba(58, 58, 58, 0.762);
     border-left: 3px dashed rgba(58, 58, 58, 0.762);
     border-bottom: 3px dashed rgba(58, 58, 58, 0.762);
     font-size: 16px;
+    position: relative;
 }
 
 .second-header {
@@ -75,17 +79,29 @@
     text-decoration: underline dashed;
 }
 
+.second-img {
+    width: 250px;
+    height: 180px;
+    background-image: url(../Img/tiramisu.jpg);
+    background-size: cover;
+    position: absolute;
+    border: 5px solid rgba(58, 58, 58, 0.762);
+    top: -90px;
+    right: -120px;
+}
+
 .third-blok {
     margin: 0 auto;
     margin-top: 100px;
     padding: 20px 40px 20px 40px;
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     background-color: rgba(143, 188, 143, 0.618);
     border: 3px solid rgba(34, 74, 34, 0.831);
     border-left: 3px dashed rgba(34, 74, 34, 0.831);
     border-bottom: 3px dashed rgba(34, 74, 34, 0.831);
     font-size: 16px;
+    position: relative;
 }
 
 .third-header {
@@ -102,6 +118,17 @@
 .third-text {
     color: rgba(34, 74, 34, 0.831);
     text-decoration: underline wavy;
+}
+
+.third-img {
+    width: 250px;
+    height: 180px;
+    background-image: url(../Img/cookies.jpeg);
+    background-size: cover;
+    position: absolute;
+    border: 5px solid rgba(34, 74, 34, 0.831);
+    top: -90px;
+    right: -120px;
 }
 
 .paragraph-botton {
